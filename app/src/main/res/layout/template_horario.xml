@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="96dp"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center"
+                android:text="@string/resultado1"
+                android:textSize="34sp" />
+
+            <TextView
+                android:id="@+id/asignatura"
+                android:layout_width="match_parent"
+                android:layout_height="61dp"
+                android:fontFamily="monospace"
+                android:gravity="center"
+                android:textSize="28sp" />
+
+            <TextView
+                android:id="@+id/docente"
+                android:layout_width="match_parent"
+                android:layout_height="61dp"
+                android:fontFamily="monospace"
+                android:gravity="center"
+                android:textSize="28sp" />
+
+            <TextView
+                android:id="@+id/horario"
+                android:layout_width="match_parent"
+                android:layout_height="61dp"
+                android:fontFamily="monospace"
+                android:gravity="center"
+                android:textSize="28sp"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/horario1"
+                android:layout_width="match_parent"
+                android:layout_height="61dp"
+                android:fontFamily="monospace"
+                android:gravity="center"
+                android:textSize="28sp"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/aula1"
+                android:layout_width="match_parent"
+                android:layout_height="305dp"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/facultad1"
+                android:layout_width="match_parent"
+                android:layout_height="61dp"
+                android:fontFamily="monospace"
+                android:gravity="center"
+                android:textSize="28sp"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/img_facultad1"
+                android:layout_width="match_parent"
+                android:layout_height="305dp"
+                android:visibility="gone"
+                app:srcCompat="@mipmap/ic_launcher_round" />
+
+            <TextView
+                android:id="@+id/horario2"
+                android:layout_width="match_parent"
+                android:layout_height="61dp"
+                android:fontFamily="monospace"
+                android:gravity="center"
+                android:textSize="28sp"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/aula2"
+                android:layout_width="match_parent"
+                android:layout_height="305dp"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/facultad2"
+                android:layout_width="match_parent"
+                android:layout_height="61dp"
+                android:fontFamily="monospace"
+                android:gravity="center"
+                android:textSize="28sp"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/img_facultad2"
+                android:layout_width="match_parent"
+                android:layout_height="305dp"
+                android:visibility="gone"
+                app:srcCompat="@mipmap/ic_launcher_round" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">AulaFacil</string>
+    <string name="bienvenida1"> Hola 👋 somos estudiantes de la carrera de Ing. Software </string>
+    <string name="bienvenida2">¿Cómo funciona AulaFácil? </string>
+    <string name="bienvenida3"> Esta app fue diseñada para ayudar a todos los estudiantes de carrera,
+        poder importar su horario de clases y poder mostrarle la ubicacion del aula, el edificio donde
+        esta su facultad y la materia </string>
+    <string name="siguiente"> Siguiente </string>
+    <string name="subir_archivo1">Seleccione su</string>
+    <string name="subir_archivo2">Horario de clases</string>
+    <string name="importar_horario">Importar Horario</string>
+    <string name="regresar">Regresar</string>
+
+    <string name="analizando">Analizando el horario</string>
+
+    <string name="analisis1">Analisis completo</string>
+    <string name="analisis2">Click en el botón para visualizar su aula, edificio.</string>
+    <string name="resultado1">Sus horarios de clases son: </string>
+
+    <string name="salir">Salir</string>
+
+    <string name="frasesCypher">“¿Piensas que eso funcionará? ¡Ja!”</string>
+    <string name="frasesCypher2">“Odio esto… que funcione”.</string>
+</resources>
